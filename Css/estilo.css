@@ -130,24 +130,34 @@ body {
 
 
 @media screen and (max-width: 900px){
+    
  
     body{
-        
-       size: auto;}
+        size: auto;
+        margin: 0;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+         }
+         .textos{
+            color: rgb(255, 251, 251);
+            text-align: center;
+            font-size:xx-large ;
+            place-items: center;    
+            display: grid;       
+             font-family: 'Courier New', Courier, monospace;
+            
+        }
    .cards{
     position: relative;
-
-        display:block;
-
         bottom:20px;
-
         left:150px;
         height : 400px;
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
         
-       
-       
-   }
+        }
    .cards .card{
     height : 415px;
    
@@ -166,13 +176,25 @@ body {
         
         size: auto;}
 
+        .textos{
+            color: rgb(255, 251, 251);
+            text-align: center;
+            font-size:x-large ;
+            place-items: center;    
+            display: grid;       
+             font-family: 'Courier New', Courier, monospace;
+            
+        }
     .cards{
-      position: relative;
-         display:block;
- 
-         bottom:30px;
- 
-         left:100px;
+        position: relative;
+        bottom:20px;
+        left:150px;
+        height : 400px;
+      
+        display:block;
+        
+        justify-content: center;
+        align-items: center;
         
         
     }
@@ -186,14 +208,31 @@ body {
      width: calc(100% + 100px);}
  }
  @media screen and (max-width: 400px){
+ 
+    
     body{
+       
         
-       size: auto;}
+
+        size: auto;}
+
+        .textos{
+            color: rgb(255, 251, 251);
+            text-align: center;
+            font-size:x-large ;
+            justify-content: center;   
+            display: grid;       
+             font-family: 'Courier New', Courier, monospace;
+            
+        }
     .cards{
      position: relative;
  
          display:block;
- 
+        
+         justify-content: center;
+         align-items: center;
+         
          bottom:30px;
  
          left:50px;
