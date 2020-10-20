@@ -133,7 +133,7 @@ body {
  
     body{
         
-         size: 100%;}
+       size: auto;}
    .cards{
     position: relative;
 
@@ -164,7 +164,7 @@ body {
 @media screen and (max-width: 700px){
     body{
         
-        size: 100%;}
+        size: auto;}
 
     .cards{
       position: relative;
@@ -188,7 +188,7 @@ body {
  @media screen and (max-width: 400px){
     body{
         
-        size: 100%;}
+       size: auto;}
     .cards{
      position: relative;
  
