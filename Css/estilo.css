@@ -33,15 +33,15 @@ body {
     min-width: 260px;
     overflow: hidden;
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     position: relative;
-    transition: all 0.5s ease;
-    margin: 0 40px;
+    transition: all 0.4s ease;
+    margin: 0 30px;
 }
 .cards .card:before {
-    height: 200px;
+    height: 190px;
     width: calc(100% + 100px);
     content: "";
     position: absolute;
@@ -66,7 +66,7 @@ body {
     right: 0;
     margin: 10px;
     padding: 5px;
-    transition: all 0.5s ease;
+    transition: all 0.2s ease;
 }
 .cards .card .close:hover {
     background-size: 100%;
@@ -86,7 +86,7 @@ body {
     color: rgb(255, 255, 255);
     margin: 0;
     padding: 40px 20px 10px 20px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 24px;
     letter-spacing: 0.5px;
 }
@@ -130,16 +130,7 @@ body {
 
 
 @media screen and (max-width: 900px){
- 
-    body{
-        
-         size: 100%;}
-         .textos{
-            
-            font-size:xx-large ;
-            
-            
-        }
+
    .cards{
     position: relative;
 
@@ -155,11 +146,11 @@ body {
        
    }
    .cards .card{
-    height : 415px;
+    height : 400px;
    
    }
    .cards .card:before {
-    height: 200px;
+    height: 180px;
     width: calc(100% + 100px);
     
 }
@@ -168,16 +159,10 @@ body {
 }
 
 @media screen and (max-width: 700px){
-    body{
-        
-        size: 70%;}
-        .textos{
-          
-            font-size:x-large ;
-    }
 
     .cards{
-      position: relative;
+     position: relative;
+ 
          display:block;
  
          bottom:30px;
@@ -188,7 +173,7 @@ body {
     }
     .cards .card{
  
-        height : 415px;
+     height: 400px;
  
     }
     .cards .card:before {
@@ -196,15 +181,7 @@ body {
      width: calc(100% + 100px);}
  }
  @media screen and (max-width: 400px){
-    body{
-        
-        size: 50%;}
-        .textos{
-            
-            font-size:x-large ;
-           
-            
-        }
+
     .cards{
      position: relative;
  
@@ -218,10 +195,10 @@ body {
     }
     .cards .card{
  
-        height : 415px;
+     height: 400px;
  
     }
     .cards .card:before {
      height: 180px;
      width: calc(100% + 100px);}
-    }
+ }
